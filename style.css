@@ -1,0 +1,75 @@
+/* Reset basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set body background and centering */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+}
+
+/* Container to wrap all content */
+.container {
+    width: 80%;
+    max-width: 1200px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Logo and Navigation section */
+.logo, .navigation {
+    display: inline-block;
+    width: 49%;
+    padding: 10px;
+    background-color: #ccc;
+    text-align: center;
+}
+
+/* Header / Banner */
+.header-banner {
+    width: 100%;
+    padding: 20px;
+    background-color: #aaa;
+    text-align: center;
+    margin: 10px 0;
+}
+
+/* Intro Text Area */
+.intro-text {
+    width: 100%;
+    padding: 15px;
+    background-color: #ddd;
+    text-align: center;
+    margin: 10px 0;
+}
+
+/* Box section */
+.boxes {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.box {
+    width: 32%;
+    padding: 20px;
+    background-color: #bbb;
+    text-align: center;
+}
+
+/* Footer */
+.footer {
+    width: 100%;
+    padding: 10px;
+    background-color: #ccc;
+    text-align: center;
+    margin: 10px 0;
+}
